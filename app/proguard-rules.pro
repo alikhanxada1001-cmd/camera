@@ -1,0 +1,4 @@
+-dontwarn org.jetbrains.annotations.**
+-keep class kotlinx.coroutines.** { *; }
+-keep class androidx.camera.** { *; }
+-keep class androidx.media3.** { *; }
