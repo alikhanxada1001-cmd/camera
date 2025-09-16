@@ -1,7 +1,7 @@
 plugins {
 	id("com.android.application")
 	id("org.jetbrains.kotlin.android")
-	id("org.jetbrains.kotlin.plugin.compose")
+	id("org.jetbrains.compose")
 }
 
 android {
@@ -46,7 +46,6 @@ android {
 		compose = true
 	}
 
-	// composeOptions removed; Kotlin 2.0 uses the Compose Compiler Gradle plugin
 
 	packaging {
 		resources.excludes += "/META-INF/{AL2.0,LGPL2.1}"
